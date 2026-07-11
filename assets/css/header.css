@@ -23,6 +23,17 @@
     font-size: 1.5rem;
     font-weight: bold;
 }
+.logo-link{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    text-decoration:none;
+    color:var(--text-light);
+}
+
+.logo-link:hover{
+    color:var(--text-light);
+}
 
 .logo-icon {
     width: 40px;
@@ -62,6 +73,10 @@
     transition: width 0.3s ease;
 }
 
+.navbar{
+    width:100%;
+}
+
 .nav-menu a:not(.btn-acceder):hover::after {
     width: 100%;
 }
@@ -83,7 +98,7 @@
 }
 
 /* Botón Hamburguesa */
-.btn-toogle {
+.btn-toggle {
     display: none;
     flex-direction: column;
     justify-content: center;
@@ -98,7 +113,7 @@
     position: relative;
 }
 
-.btn-toogle .line {
+.btn-toggle .line {
     width: 28px;
     height: 3px;
     background-color: var(--text-light);
@@ -107,33 +122,33 @@
     position: absolute;
 }
 
-.btn-toogle .line.top {
+.btn-toggle .line.top {
     top: 10px;
 }
 
-.btn-toogle .line.middle {
+.btn-toggle .line.middle {
     top: 18px;
 }
 
-.btn-toogle .line.bottom {
+.btn-toggle .line.bottom {
     top: 26px;
 }
 
-.btn-toogle:hover .line {
+.btn-toggle:hover .line {
     background-color: var(--light-green-bg);
 }
 
 /* Animación del botón hamburguesa cuando está activo */
-.btn-toogle.active .line.top {
+.btn-toggle.active .line.top {
     top: 18px;
     transform: rotate(45deg);
 }
 
-.btn-toogle.active .line.middle {
+.btn-toggle.active .line.middle {
     opacity: 0;
 }
 
-.btn-toogle.active .line.bottom {
+.btn-toggle.active .line.bottom {
     top: 18px;
     transform: rotate(-45deg);
 }
@@ -207,7 +222,7 @@
 /* ========== RESPONSIVE DESIGN ========== */
 
 @media screen and (max-width: 968px) {
-    .btn-toogle {
+    .btn-toggle {
         display: flex;
     }
 
