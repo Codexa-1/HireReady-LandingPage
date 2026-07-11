@@ -18,7 +18,124 @@
 <body>
 
 <div id="header"></div>
+<!-- Header -->
+<header class="header">
 
+    <nav class="navbar">
+
+        <div class="container">
+
+            <div class="nav-wrapper">
+
+                <!-- Logo -->
+                <div class="logo">
+
+                    <a href="index.html" class="logo-link">
+
+                        <span class="logo-icon">
+                            <img
+                                    src="assets/images/logo.png"
+                                    alt="Logo de HireReady">
+                        </span>
+
+                        <span class="logo-text">
+                            HireReady
+                        </span>
+
+                    </a>
+
+                </div>
+
+                <!-- Botón hamburguesa -->
+                <button
+                        id="btn-toggle"
+                        class="btn-toggle"
+                        aria-label="Abrir menú">
+
+                    <span class="line top"></span>
+                    <span class="line middle"></span>
+                    <span class="line bottom"></span>
+
+                </button>
+
+                <!-- Navegación -->
+                <ul class="nav-menu" id="navMenu">
+
+                    <li>
+                        <a href="index.html">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#caracteristicas">
+                            Características
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#planes">
+                            Planes
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#testimonios">
+                            Testimonios
+                        </a>
+                    </li>
+
+                    <!-- Dropdown -->
+                    <li class="has-dropdown">
+
+                        <a href="#">
+                            Explora
+                        </a>
+
+                        <ul class="dropdown">
+
+                            <li>
+                                <a href="pages/simulacion-grabaciones.html">
+                                    Simulación de entrevistas
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="pages/coach.html">
+                                    Coach virtual y comunicación avanzada
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="pages/rr.html">
+                                    Retroalimentación y recomendaciones
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+                    <li>
+                        <a
+                                href="pages/inicio-sesion.html"
+                                class="btn-acceder"
+                                id="btnAcceder">
+
+                            Acceder
+
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+</header>
 <!-- Hero Section -->
 <section class="hero" id="inicio">
     <div class="container">
@@ -282,9 +399,89 @@
     </div>
 
 </div>
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
 
-<!-- JavaScript -->
-<script src="assets/js/script.js"></script>
+        <div class="footer-content">
+
+            <!-- Redes Sociales -->
+            <div class="footer-section">
+                <h3>Redes sociales</h3>
+
+                <ul class="footer-social">
+                    <li>
+                        <img src="assets/images/facebook.png" alt="Facebook" class="social-icon">
+                        <a href="#">Facebook</a>
+                    </li>
+
+                    <li>
+                        <img src="assets/images/instagram.png" alt="Instagram" class="social-icon">
+                        <a href="#">Instagram</a>
+                    </li>
+
+                    <li>
+                        <img src="assets/images/linkedin.png" alt="LinkedIn" class="social-icon">
+                        <a href="#">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Preguntas Frecuentes -->
+            <div class="footer-section">
+                <h3>Preguntas frecuentes</h3>
+
+                <ul>
+                    <li>
+                        <a href="pages/preguntas.html#como-funciona-ia">
+                            ¿Cómo funciona la IA?
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="pages/preguntas.html#analisis-lenguaje">
+                            ¿Cómo funciona el análisis del lenguaje no verbal?
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="pages/preguntas.html#tipo-feedback">
+                            ¿Qué tipo de feedback recibiré?
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="pages/preguntas.html">
+                            Ver preguntas frecuentes
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Contacto -->
+            <div class="footer-section">
+                <h3>Contacto</h3>
+
+                <ul>
+                    <li>Correo: soporte@hireready.com</li>
+                    <li>Teléfono: +51 930 857 315</li>
+                    <li>Dirección: Lima, Perú</li>
+                    <li>
+                        ¿Necesitas ayuda?
+                        <a href="pages/contactanos.html">Haz clic aquí</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 HireReady. Todos los derechos reservados.</p>
+        </div>
+
+    </div>
+</footer>
+
 
 </body>
 </html>
